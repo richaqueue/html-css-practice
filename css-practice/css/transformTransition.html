@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <style>
+              
+              .box{
+                     /* border: 12px solid pink;
+                     display: inline-block; */
+                     /* transform: translate(334px) rotate(0.5turn); */
+                     /* transform-origin: 0; */
+                     /* transform: scale(0.5, 2); */
+                     /* transform: skew(30deg, 30deg); */
+                     /* transform: rotateZ(120deg); */
+                      /* transform: translate(430px) rotateZ(182deg); */
+              }
+img{
+       width: 600px;
+       height: auto;
+    border: 15px solid maroon;
+       /* transition-property: width;
+       transition-duration: 1s;
+       transition-timing-function: ease-in-out; */
+       transition:width 0.4s ease-in, border 1s ease-in-out ;
+}
+img:hover{
+       width: 100px;
+       height: auto;
+       border: 5px dashed purple;
+     }
+       </style>
+</head>
+<body>
+       <div class="box">
+              <img src="images.jfif" >
+       </div>
+</body>
+</html>

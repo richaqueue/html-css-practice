@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Form</title>
+</head>
+
+<body>
+       <div>
+              <h1>Welcome to Peetzaa Hub</h1>
+              <form action="form.php">
+                     <input type="text" placeholder="Enter your name">
+
+                     <h5>Select pizza size</h5>
+                     <label for="sizeA">
+                            <input type="radio" value="Mania" name="size" id="sizeA">Mania
+                     </label>
+                     <label for="sizeB">
+                            <input type="radio" value="Medium" name="size" id="sizeB">Medium
+                     </label>
+                     <label for="sizeC">
+                            <input type="radio" value="Large" name="size" id="sizeC">Large
+                     </label>
+
+                     <h5>Select toppings</h5>
+                     <label for="onion">
+                            <input type="checkbox" value="onion" name="toppings" id="101"> onion
+                     </label><br>
+                     <label for="paneer">
+                            <input type="checkbox" value="paneer" name="toppings" id="102">paneer
+                     </label><br>
+                     <label for="capsicum">
+                            <input type="checkbox" value="capsicum" name="toppings" id="103">capsicum
+                     </label><br>
+                     <label for="golden corn">
+                            <input type="checkbox" value="golden corn" name="toppings" id="104">golden corn
+                     </label><br>
+                     <label for="pepperoni">
+                            <input type="checkbox" value="pepperoni" name="toppings" id="105">pepperoni
+                     </label><br><br>
+                     <h5>Add-ons/Sides</h5>
+                     <label for="Garlic Bread">
+                            <input type="checkbox" value="Garlic Bread" name="pluss" id="add">Garlic Bread
+                     </label><br>
+                     <label for="Pasta">
+                            <input type="checkbox" value="Pasta" name="pluss" id="add">Pasta
+                     </label><br>
+                     <label for="French Fries">
+                            <input type="checkbox" value="French Fries" name="pluss" id="add">French Fries
+                     </label><br>
+                     <label for="coke/pepsi">
+                            <input type="checkbox" value="coke/pepsi" name="pluss" id="add">coke/pepsi
+                     </label><br>
+                     <label for="Dessert">
+                            <input type="checkbox" value="Dessert" name="pluss" id="add">Dessert
+                     </label><br><br>
+                     <textarea name="explain" id="instructions" col="30" rows="10"
+                            placeholder="Explain why you need this pizzaaa"></textarea> <br>
+                     <select name="payment" id="payment">
+                            <option value="payment method">Payment Method</option>
+                            <option value="cod">Cash on Delivery</option>
+                            <option value="upi">UPI</option>
+                            <option value="card payment">Card Payment</option>
+                     </select><br> <br>
+                     <input type="submit" value="done">
+              </form>
+       </div>
+</body>
+
+</html>

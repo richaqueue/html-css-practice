@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <style>
+              * {
+                     margin: 0;
+                     padding: 0;
+                     height: 1150px;
+              }
+
+              li {
+                     display: inline;
+              }
+
+              header {
+                     background-color: black;
+                     color: white;
+                     height: 65px;
+                     position: sticky;
+                     top: 0;
+                     z-index: 7;
+              }
+
+              .container {
+                     background-color: aqua;
+                     width: 40vw;
+                     height: 50vh;
+                     margin: auto;
+                     padding: 0 40px;
+                     position: relative;
+                    z-index: 14;
+              }
+
+              p {
+                     text-align: center;
+                     border: 20px solid darkcyan;
+              }
+
+              /* .box2{
+       background-color: red;
+       color: white;
+       display: inline;
+      position: relative;
+      left: 707px;
+      bottom: 80px;
+} */
+              .box {
+                     background-color: yellow;
+                     height: 145px;
+                     width: 140px;
+                     /* position: relative;
+                     top: 156px;
+                     left: 56px; */
+                     /* position: absolute;
+                     top: 0;
+                     right: 0; */
+                     position: fixed;
+                     bottom: 0;
+                     left: 0;
+              }
+
+              .box3 {
+                     background-color: rgb(34, 206, 48);
+                     height: 145px;
+                     width: 140px;
+              }
+       </style>
+</head>
+
+<body>
+       <header>
+              <nav>
+                     <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                     </ul>
+              </nav>
+       </header>
+       <div class="container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reprehenderit eligendi error est. Omnis
+                     totam natus minus eveniet ea fugit unde explicabo cupiditate velit.</p>
+              <!-- <div class="box2">like</div> -->
+              <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ducimus.</div>
+              <div class="box3">Lorem consectetur adipisicing elit. Fuga fugiat quos non cupiditate quam, dicta ea odio.
+                     Labore, illo corporis!</div>
+       </div>
+</body>
+
+</html>
